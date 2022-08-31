@@ -14,19 +14,18 @@
      <!-- NAVIGATION MENU -->
      <ul class="nav-links">
        <!-- USING CHECKBOX HACK -->
-       <input type="checkbox" id="checkbox_toggle" />
+      <!-- <input type="checkbox" id="checkbox_toggle" />
        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-       <!-- NAVIGATION MENUS -->
+      NAVIGATION MENUS -->
        <div class="menu">
          <li><a href="{{ url_for('home') }}">Home</a></li>
-         <li><a href="/">Accommodation</a></li>
+         <li><a href="{{ url_for('get_accommodation') }}">Accommodation</a></li>
          <li class="Recommendation">
              <a href="{{ url_for('get_recommendation') }}">Recommendation</a>
-           <!-- DROPDOWN MENU -->
+           <!-- DROPDOWN MENU
            <ul class="dropdown">
              <li><a href="/">Expenses </a></li>
-
-           </ul>
+           </ul>-->
          </li>
          <li><a href="/">About</a></li>
        </div>

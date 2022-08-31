@@ -9,5 +9,9 @@ def home():
 def get_recommendation():
     return render_template('recommendation.html')
 
+@app.route('/accommodation')
+def get_accommodation():
+    return render_template('Accommodation.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
