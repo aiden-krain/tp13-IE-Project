@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>OZCobby</title>
+   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+ </head>
+  <body>
+  <nav class="navbar">
+     <!-- LOGO -->
+     <div class="logo">OZCobby</div>
+     <!-- NAVIGATION MENU -->
+     <ul class="nav-links">
+       <!-- USING CHECKBOX HACK -->
+       <input type="checkbox" id="checkbox_toggle" />
+       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+       <!-- NAVIGATION MENUS -->
+       <div class="menu">
+         <li><a href="/">Home</a></li>
+         <li><a href="/">Accommodation</a></li>
+         <li class="Recommendation">
+           <a href="/">Recommendation</a>
+           <!-- DROPDOWN MENU -->
+           <ul class="dropdown">
+             <li><a href="/">Expenses </a></li>
+
+           </ul>
+         </li>
+         <li><a href="/">About</a></li>
+       </div>
+     </ul>
+   </nav>
+
+   <div class="container">
+     <img src="{{url_for('static', filename='images/Recom.jpeg')}}"  style="width:100%;">
+     <div class="centered"; style="font-size:50px">RECOMMENDATION</div>
+   </div>
+   <div class="row">
+      <div class="column">
+          <img src="{{url_for('static', filename='images/live.jpg')}}" style="width:100%">
+      </div>
+      <div class="column">
+         <h1 style="text-align:center">Accommodation and Transportation</h1>
+          <br></br>
+        <p style="color:black;font-size:30px;text-align:left">Accommodation and transportation are essential for all international students in Melbourne.
+Average rental price for 1-bedroom apartment is $300 pw in Melbourne city, however the rent will be much cheaper if you choose to live in the suburb which is around $200PW.</p>
+            <p style="color:black;font-size:30px;text-align:center">Website: <a href="https://www.realestate.com.au/">www.realestate.com.au. </a></p>
+<p style="color:black;font-size:30px;text-align:left">Public transport in Melbourne is cheaper than a taxi or uber. More price can be viewed on the PTV website.</p>
+                <p style="color:black;font-size:30px;text-align:center">Website: <a href="https://www.ptv.vic.gov.au/">www.ptv.vic.gov.au.</a></p>
+      </div>
+    </div>
+   <div class="row">
+
+      <div class="column">
+         <h1 style="text-align:center">Eating and Drinking in Melbourne</h1>
+          <br></br>
+        <p style="color:black;font-size:30px;text-align:left">Melbourne is a city with full of delicious food and drinks. The average cost per person is about $40.
+There are serval apps and websites you can search good restaurants and bars, You also can see the menu and average cost per person there.</p>
+          <p style="color:black;font-size:30px;text-align:center">Website: <a href="https://www.zomato.com/">www.zomato.com</a>. </p>
+      </div>
+       <div class="column">
+          <img src="{{url_for('static', filename='images/food.jpg')}}" style="width:100%">
+       </div>
+    </div>
+    <div class="row">
+      <div class="column">
+          <img src="{{url_for('static', filename='images/event.jpg')}}" style="width:100%">
+      </div>
+      <div class="column">
+         <h1 style="text-align:center">Events and Activities</h1>
+          <br></br>
+        <p style="color:black;font-size:30px;text-align:left">There are many activities in Melbourne every week, you can join different communities and activities in your leisure time.
+Some events and activities are free for international students but Always check the price and fees before you go.</p>
+<br>
+          <p style="color:black;font-size:30px;text-align:center">
+              Website: <a href="https://whatson.melbourne.vic.gov.au/">www.whatson.melbourne.vic.gov.au</a>. </br></p>
+      </div>
+    </div>
+ </body>
+</html>
