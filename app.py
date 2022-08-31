@@ -11,7 +11,7 @@ def get_recommendation():
 
 @app.route('/accommodation')
 def get_accommodation():
-    return render_template('Accommodation.html')
+    return render_template('accommodation.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
