@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8" />
-   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>OZCobby</title>
-   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/accom.css') }}">
+    <meta charset="UTF-8">
+    <title>Accommodation</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js">
+    </script>
+
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/ui-lightness/jquery-ui.css"
+        rel="stylesheet" type="text/css" />
 </head>
 <body>
 {% include 'Nav Bar.html' %}
-<!-- The form -->
-<form autocomplete="off" action="/action_page.php">
-  <div class="autocomplete" style="width:300px;">
-    <input id="myInput" type="text" name="myCountry" placeholder="Select Suburb">
-  </div>
-  <input type="submit">
-</form>
+
+
+    <h1>Select a Suburb</h1>
+
+v   <form class="example" method="post" action=""
+         style="margin:auto;max-width:600px">
+    <input type="text" placeholder="Enter a suburb" id="tags">
+    <button type="submit"><i class="fa fa-search">Search</i> </button>
+            </form>
+    <script>
+  var $1 = $( function() {
+    var availableTags = [
+        {% for suburb in suburbs %}
+            "{{suburb}}",
+        {% endfor %}
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  } );
+  </script>
 </body>
 </html>
