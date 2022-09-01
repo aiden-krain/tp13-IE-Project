@@ -33,7 +33,7 @@ class ReadExcle(object):
 excel = ReadExcle(r"data.xlsx", "Sheet3")
 result = excel.read_data()
 
-print(result)
+#print(result)
 
 with open('111.json', 'rb') as f:
     districts = geojson.load(f)
@@ -51,8 +51,8 @@ for idx, geometry in enumerate(districts['features']):
     ))
 
 feature_collection = FeatureCollection(features)
-print(vlist)
-print(color)
+#print(vlist)
+#print(color)
 result_color = []
 for i in color:
     if i[0] in vlist:
@@ -67,10 +67,10 @@ for i in color:
         i[1] = 0
         result_color.append(i)
 color = result_color
-print(color)
+#print(color)
 map = folium.Map(
-    location=[141.84480555,-35.04287488],
-    zoom_start=4,
+    location=[-37.81,144],
+
     tiles=('https://api.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png'
            + '?access_token=pk.eyJ1IjoibHVrYXNtYXJ0aW5lbGxpIiwiYSI6ImNpem8'
            + '5dmhwazAyajIyd284dGxhN2VxYnYifQ.HQCmyhEXZUTz3S98FMrVAQ'),
@@ -88,4 +88,5 @@ folium.Choropleth(
     legend_name='Rank'
 ).add_to(map)
 
-map.save('map.html')
+
+map.save('templates/map.html')

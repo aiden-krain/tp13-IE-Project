@@ -3,25 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Accommodation</title>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js">
     </script>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js">
     </script>
-
     <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/ui-lightness/jquery-ui.css"
         rel="stylesheet" type="text/css" />
 </head>
 <body>
 {% include 'Nav Bar.html' %}
 
-
     <h1>Select a Suburb</h1>
-
    <form class="example" method="post" action=""
          style="margin:auto;max-width:600px">
-    <input type="text" placeholder="Enter a suburb" id="tags">
+    <input type="text" placeholder="Enter a suburb" id="tags" name="suburb">
     <button type="submit"><i class="fa fa-search">Search</i> </button>
             </form>
     <script>
@@ -36,6 +31,13 @@
     });
   } );
   </script>
+
+<h3 style="color:black;font-size:30px;text-align:center">Result: {{suburb_req}}</h3>
+<br></br>
+<h1>Melbourne Map</h1>
+<br></br>
 {% include 'map.html' %}
 </body>
 </html>
+
+
