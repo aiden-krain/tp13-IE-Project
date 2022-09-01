@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cb748e7-8de1-4db2-956c-db3b7cb11dea" name="Changes" comment="">
+    <list default="true" id="0cb748e7-8de1-4db2-956c-db3b7cb11dea" name="Changes" comment="Home changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/beelee/IE2022",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
@@ -119,11 +121,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="960c6d8d-acdb-4f52-9c33-1f8be415bfac" name="Changes" comment="" />
+      <changelist id="0cb748e7-8de1-4db2-956c-db3b7cb11dea" name="Changes" comment="Home changes" />
       <created>1661848317597</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661848317597</updated>
+      <workItem from="1662001683850" duration="2427000" />
     </task>
     <task id="LOCAL-00001" summary="new change">
       <created>1661940947156</created>
@@ -132,8 +135,25 @@
       <option name="project" value="LOCAL" />
       <updated>1661940947156</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added database files">
+      <created>1661996214382</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661996214382</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Home changes">
+      <created>1661996560441</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661996560441</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -149,9 +169,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pull" />
     <MESSAGE value="new change" />
-    <option name="LAST_COMMIT_MESSAGE" value="new change" />
+    <MESSAGE value="Added database files" />
+    <MESSAGE value="Home changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home changes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tp13_IE_Project$app.coverage" NAME="app Coverage Results" MODIFIED="1661993509948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tp13_IE_Project$app.coverage" NAME="app Coverage Results" MODIFIED="1662001977387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
