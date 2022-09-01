@@ -3,8 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Accommodation</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js">
+    </script>
+
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/ui-lightness/jquery-ui.css"
+        rel="stylesheet" type="text/css" />
 </head>
 <body>
 {% include 'Nav Bar.html' %}
+
+
+    <h1>Select a Suburb</h1>
+
+v   <form class="example" method="post" action=""
+         style="margin:auto;max-width:600px">
+    <input type="text" placeholder="Enter a suburb" id="tags">
+    <button type="submit"><i class="fa fa-search">Search</i> </button>
+            </form>
+    <script>
+  var $1 = $( function() {
+    var availableTags = [
+        {% for suburb in suburbs %}
+            "{{suburb}}",
+        {% endfor %}
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  } );
+  </script>
 </body>
 </html>
