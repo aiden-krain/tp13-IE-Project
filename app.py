@@ -1,6 +1,15 @@
 from flask import Flask,render_template,url_for,request,jsonify
 import json
+
+import mysql.connector
 app = Flask(__name__)
+# Connect to the database
+connection = mysql.connector.connect(host="tp13mysqlserver.mysql.database.azure.com",
+                            user="tp13admin",
+                             password="Project5120",
+                            database="ozcobby",
+                          )
+
 
 
 @app.route('/')
