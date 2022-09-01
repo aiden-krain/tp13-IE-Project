@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cb748e7-8de1-4db2-956c-db3b7cb11dea" name="Changes" comment="Home changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+    <list default="true" id="0cb748e7-8de1-4db2-956c-db3b7cb11dea" name="Changes" comment="Home screen updated with slogan">
       <change beforePath="$PROJECT_DIR$/templates/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661848317597</updated>
-      <workItem from="1662001683850" duration="2427000" />
+      <workItem from="1662001683850" duration="3735000" />
     </task>
     <task id="LOCAL-00001" summary="new change">
       <created>1661940947156</created>
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661996560441</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Home screen updated with slogan">
+      <created>1662004153644</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662004153644</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +176,8 @@
     <MESSAGE value="new change" />
     <MESSAGE value="Added database files" />
     <MESSAGE value="Home changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home changes" />
+    <MESSAGE value="Home screen updated with slogan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home screen updated with slogan" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tp13_IE_Project$app.coverage" NAME="app Coverage Results" MODIFIED="1662001977387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
