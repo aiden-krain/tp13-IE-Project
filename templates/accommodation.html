@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Accommodation</title>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>OZCobby</title>
+   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/accom.css') }}">
 </head>
 <body>
 {% include 'Nav Bar.html' %}
+<!-- The form -->
+<form autocomplete="off" action="/action_page.php">
+  <div class="autocomplete" style="width:300px;">
+    <input id="myInput" type="text" name="myCountry" placeholder="Select Suburb">
+  </div>
+  <input type="submit">
+</form>
 </body>
 </html>
