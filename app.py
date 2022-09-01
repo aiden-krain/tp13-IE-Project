@@ -47,7 +47,7 @@ def get_accommodation():
             median_value = median_value[median_value['Property type'] == "Suburbs - All properties"]
             median_value = median_value[median_value['Year'] == 2021]
             if len(median_value) == 1:
-                suburb_req = median_value.iloc[0]['Median']
+                suburb_req =  median_value.iloc[0]['Median']
             if len(median_value) != 1:
                 suburb_req = "Suburb not found"
             return render_template('accommodation.html', suburb_req=suburb_req)
