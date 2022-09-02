@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('index.html')
 @app.route('/recommendation', methods=["POST", "GET"])
 def get_recommendation():
     return render_template('recommendation.html')
