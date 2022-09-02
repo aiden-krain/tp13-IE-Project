@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7aea8baf-49ac-4241-bd53-dc2db132d4cd" name="Changes" comment="moved index.html">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7aea8baf-49ac-4241-bd53-dc2db132d4cd" name="Changes" comment="changed runtime.txt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +201,35 @@
       <option name="project" value="LOCAL" />
       <updated>1662090801782</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="moved index.html">
+      <created>1662094972540</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662094972540</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added new files">
+      <created>1662095116936</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662095116936</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added new files">
+      <created>1662095159397</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662095159397</updated>
+    </task>
+    <task id="LOCAL-00015" summary="changed runtime.txt">
+      <created>1662095250313</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662095250313</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +257,9 @@
     <MESSAGE value="Home screen updated with slogan" />
     <MESSAGE value="renamed home.html to index.html" />
     <MESSAGE value="moved index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved index.html" />
+    <MESSAGE value="added new files" />
+    <MESSAGE value="changed runtime.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed runtime.txt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tp13_IE_Project$app.coverage" NAME="app Coverage Results" MODIFIED="1662090764449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
