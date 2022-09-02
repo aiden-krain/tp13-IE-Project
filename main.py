@@ -33,7 +33,7 @@ class ReadExcle(object):
 excel = ReadExcle(r"data.xlsx", "Sheet3")
 result = excel.read_data()
 
-#print(result)
+print(result)
 
 with open('111.json', 'rb') as f:
     districts = geojson.load(f)
@@ -67,7 +67,7 @@ for i in color:
         i[1] = 0
         result_color.append(i)
 color = result_color
-#print(color)
+print(color)
 map = folium.Map(
     location=[-37.81,144],
 

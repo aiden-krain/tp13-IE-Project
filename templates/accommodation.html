@@ -12,8 +12,9 @@
 </head>
 <body>
 {% include 'Nav Bar.html' %}
-
-    <h1 style=" text-align:center">Select a Suburb</h1>
+    <div style="text-align:center; font-size: 40px;">
+        Find your ideal suburb
+    </div>
 <br></br>
    <form class="example" method="post" action=""
          style="margin:auto;max-width:600px">
@@ -32,10 +33,13 @@
     });
   } );
   </script>
-
-<h3 style="background-color:black;color:white;font-size:30px;text-align:center">Result: {{suburb_req}}</h3>
 <br></br>
-<h1>Melbourne Map</h1>
+      <div>
+        <p style="color:black;font-size:20px;text-align:center">{{answer_sub}}</p>
+      </div>
+
+<br></br>
+<h1 style="text-align:center">Melbourne Choropleth Map</h1>
 <br></br>
 {% include 'map.html' %}
 </body>
