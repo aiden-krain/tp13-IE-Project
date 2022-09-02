@@ -67,7 +67,7 @@ for i in color:
         i[1] = 0
         result_color.append(i)
 color = result_color
-print(color)
+#print(color)
 map = folium.Map(
     location=[-37.81,144],
 
